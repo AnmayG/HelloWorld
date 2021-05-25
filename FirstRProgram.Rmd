@@ -7,7 +7,11 @@ output:
     keep_md: true
 ---
 
-'''{r}
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+'''{r test, echo = FALSE}
 
 ## insert your WORKING code here
 print ("Hello, World!")
